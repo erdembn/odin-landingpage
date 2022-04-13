@@ -1,0 +1,136 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    padding:0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero{
+    text-align: center;
+    
+    width: auto;
+    height: 800px;
+    background-image: url("../images/main.jpg");
+    background-size: cover;
+   
+}
+
+.herotitle{
+    margin-top: 0;
+    padding-top: 150px;
+    font-size: 5rem;
+}
+
+#beachlogo{
+    width: 10%;
+}
+
+
+
+.maincontainer{
+    background-color: #E78EA9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100%;
+    text-align: center;
+    
+    
+    
+}
+
+.mainelements{
+    flex: 1 1 auto;
+    padding: 50px;
+    
+
+    
+}
+
+.fleximg{
+    max-width: 20rem;
+    max-height: 20rem;
+    border-radius: 18px;
+    
+    
+}
+
+.witn{
+    
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    
+}
+
+.witnimg{
+    flex: 1 1 auto;
+    max-width: 50%;
+    max-height: 30%;
+   
+
+    padding: 50px 15px 50px 15px;
+}
+
+.witnp{
+    flex: 1 1 auto;
+    max-width: 50%;
+    max-height: 30%;
+    padding: 110px 15px ;
+}
+
+.footer{
+    text-align: center;
+    background-color: #DFDFDE;
+    padding: 15px;
+}
+
+.footercont{
+    margin: 0;
+    padding: 15px;
+}
+
+
+
+
+                /* BUTTON*/
+.call {
+	background-color:#44c767;
+	border-radius:19px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:18px;
+	padding:11px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.call:hover {
+	background-color:#5cbf2a;
+}
+.call:active {
+	position:relative;
+	top:1px;
+}
+
+@media (max-width: 800px) {
+    .witnimg {
+      display: block;
+      object-fit: contain;
+      max-width: 100%;
+      max-height: 100%;
+      padding: 25px;
+  }
+  .witnp{
+      max-width: 100%;
+      max-height: 100%;
+      padding: 15px;
+  }
+}
